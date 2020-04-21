@@ -1,0 +1,38 @@
+@Host= http://localhost:3000
+###
+POST   {{Host}}/users
+content-type: application/json
+
+{
+    "email":"caro@gmail.com",
+    "password": "carocat"
+}
+
+
+###
+POST   {{Host}}/logging
+content-type: application/json
+
+{
+    "email":"caro33@gmail.com",
+    "password": "carocat"
+}
+
+###
+POST   {{Host}}/logout
+content-type: application/json
+
+{
+    "email":"caro@gmail.com",
+    "password": "carocat"
+}
+
+
+###
+GET    {{Host}}/favorites
+content-type: application/json
+
+{
+    "email":"caro@gmail.com",
+    "password": "carocat"
+}
